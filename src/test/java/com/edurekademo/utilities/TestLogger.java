@@ -13,6 +13,7 @@ public class TestLogger {
                 try { 
                         int f = 1/0; 
                         System.out.println(f);
+			System.out.println("Michael");
                 }
                 catch (Exception e){
                         LoggerStackTraceUtil util = new LoggerStackTraceUtil();
